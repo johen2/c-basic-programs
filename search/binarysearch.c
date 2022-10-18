@@ -45,7 +45,7 @@ int main(){
     scanf("%d",&arr[i]);
   }
 
-  printf("\nenter the traget to get the index of :");
+  printf("\nenter the target to get the index of :");
   scanf("%d", &traget);
   key=binarysearch(arr, traget, 0, n-1 );
 
